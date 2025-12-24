@@ -129,6 +129,7 @@ public class CliService {
             return;
         }
 
+
         System.out.print("Enter Category Name: ");
         String name = scanner.nextLine();
 
