@@ -107,6 +107,7 @@ public class CliService {
                 "password", password
         );
 
+
         Map response = client.post()
                 .uri("/api/users/login")
                 .bodyValue(dto)
