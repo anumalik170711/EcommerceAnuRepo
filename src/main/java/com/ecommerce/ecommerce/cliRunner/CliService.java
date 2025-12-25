@@ -88,6 +88,7 @@ public class CliService {
                 .bodyToMono(String.class)
                 .block();
 
+
         System.out.println("Registration successful: " + response);
         System.out.println("Please Proceed for the Login");
     }
