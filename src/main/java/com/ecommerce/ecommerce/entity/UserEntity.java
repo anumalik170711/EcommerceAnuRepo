@@ -30,6 +30,7 @@ public class UserEntity {
     @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
     private CartEntity cart;
 
+
     @OneToMany(mappedBy = "user")
     private List<OrderEntity> orders;
 
